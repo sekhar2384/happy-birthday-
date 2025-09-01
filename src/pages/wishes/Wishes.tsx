@@ -48,10 +48,10 @@ const sampleMessagesDataArray: TMessagesData[] = [
     albumArt: firstAlbumArt,
     musicName: "Night City - R E L's Version",
     messageInParas: [
-      "Hey there Judy   your birthday! Wishing you the happiest of birthdays filled with all the things you love and cherish the most.",
+      "Hey there Sally your birthday! Wishing you the happiest of birthdays filled with all the things you love and cherish the most.",
       "May this year be filled with lots of laughter, love, and unforgettable memories. I hope you get to spend your special day surrounded by the people you care about, doing all the things that make you happy.",
       "Whether it's eating cake, opening presents, or just chilling out, I hope you have the best time ever. Here's to another year of being awesome, slaying the game, and living your best life.",
-      "You're a true gem, Judy, and I feel lucky to know you. Happy birthday and cheers to a fantastic year ahead!",
+      "You're a true gem, Sally, and I feel lucky to know you. Happy birthday and cheers to a fantastic year ahead!",
     ],
     musicFilePath: firstMusic,
   },
@@ -59,12 +59,7 @@ const sampleMessagesDataArray: TMessagesData[] = [
     albumArt: secondAlbumArt,
     musicName: 'Almost nothing - "Death Stranding" Ending Song',
     messageInParas: [
-      "Happy Birthday! On this special day, I hope that all of your dreams come true and that you are surrounded by love and happiness. You are a wonderful person who deserves nothing but the best, and I feel honored to be able to celebrate this special day with you.",
-      "As you reflect on the past year and look forward to the next, I hope that you remember all of the amazing things that you have accomplished and the obstacles that you have overcome. Your determination and hard work inspire those around you, and I am grateful to have you in my life.",
-      "May this birthday be just the beginning of a happy journey that will lead you to an even more amazing future. Enjoy your day to the fullest, and know that you are loved and appreciated by so many.",
-      "Once again, happy birthday, Judy! Cheers to another year of laughter, love, and wonderful memories.",
-      "Warm regards,",
-      "Anon",
+      "Today is your day, and I just want you to know how deeply grateful I am that you were born — not just into this world, but into my world. You light up every space you walk into, and you’ve brought a kind of love into my life that I didn’t know was possible until you."
     ],
     musicFilePath: secondMusic,
   },

@@ -1,6 +1,6 @@
 import "./Judy.css";
 
-import mainImage from "../../assets/main-image.webp";
+import mainImage from "../../assets/sally.jpg";
 import Marquee from "../../components/Marquee/Marquee";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute top-0 left-32 mt-12 text-center hidden md:flex flex-col justify-around h-32 "
       >
-        <p className=" text-xl">Judy </p>
+        <p className=" text-xl">SALLY RAJ </p>
         <div className="flex flex-col text-left">
           <Link to={"/wishes"} className="hover:underline">
             My Wishes
@@ -100,7 +100,7 @@ const Judy = () => {
       </motion.div>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday Judy!"
+        message="Happy Birthday Sally..!"
         small={false}
       />
     </motion.main>

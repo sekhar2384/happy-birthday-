@@ -1,5 +1,5 @@
 import "./Home.css";
-import mainImage from "../../assets/main-image.webp";
+import mainImage from "../../assets/sally.jpg";
 
 import Marquee from "../../components/Marquee/Marquee";
 import { motion } from "framer-motion";
@@ -17,8 +17,8 @@ const Home = () => {
         exit={{ opacity: 0 }}
         className="absolute top-0 mt-12 text-center"
       >
-        <p>"From the Moon and back ❤️"</p>
-        <p>judy</p>
+        <p>"To the Moon and back ❤️"</p>
+        <p>SALLY RAJ</p>
       </motion.div>
       {/* Mobile */}
       <Link
