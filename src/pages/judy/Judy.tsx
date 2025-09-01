@@ -1,6 +1,6 @@
 import "./Judy.css";
 
-import mainImage from "../../assets/sally.jpg";
+import mainImage from "../../assets/sally.webp";
 import Marquee from "../../components/Marquee/Marquee";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
