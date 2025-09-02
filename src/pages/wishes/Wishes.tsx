@@ -11,11 +11,11 @@ import TMessagesData from "../../typings/MessagesData";
 
 // albumArts
 import firstAlbumArt from "../../assets/sampleData/first-album-art.webp";
-import secondAlbumArt from "../../assets/sampleData/second-album-art.webp";
+import secondAlbumArt from "../../assets/sampleData/second-art.jpg";
 
 // musicFilePaths
-import firstMusic from "../../assets/sampleData/music/night-city.mp3";
-import secondMusic from "../../assets/sampleData/music/almost-nothing.mp3";
+import firstMusic from "../../assets/sampleData/music/first-album.mp3";
+import secondMusic from "../../assets/sampleData/music/second-album.mp3";
 
 // framer transition and variants
 const commonTransition = {
@@ -46,20 +46,20 @@ const messages = {
 const sampleMessagesDataArray: TMessagesData[] = [
   {
     albumArt: firstAlbumArt,
-    musicName: "Night City - R E L's Version",
+    musicName: "The Night we met - R E L's Version",
     messageInParas: [
-      "Hey there Sally your birthday! Wishing you the happiest of birthdays filled with all the things you love and cherish the most.",
-      "May this year be filled with lots of laughter, love, and unforgettable memories. I hope you get to spend your special day surrounded by the people you care about, doing all the things that make you happy.",
-      "Whether it's eating cake, opening presents, or just chilling out, I hope you have the best time ever. Here's to another year of being awesome, slaying the game, and living your best life.",
-      "You're a true gem, Sally, and I feel lucky to know you. Happy birthday and cheers to a fantastic year ahead!",
+      "Many more happy returns of the day Ma'am 🥳! May this year brings you lots of peace, Luck and Health. Next year ee time ki ekkada unna nuvvu hAAppy ga undali ani korukuntunnanu not only next year but for years to come 😁.",
+      "Almost 3 years ipotundi kada since we met..? Maybe our last time together on your day :) So I wanted make this one count for you 💕.",
+      "Ee 3 years nannu naa gola ni barinchinanduku chaala Thanks ra 🤦‍♀️. Boledu Rollercoaster rides ipoyayi ee span lo I'm really sorry for my mistakes and troubles I caused.",
+      "Konchem Cringe anipinchochu yet neeku something special ga ivvalanpinchindi!",
     ],
     musicFilePath: firstMusic,
   },
   {
     albumArt: secondAlbumArt,
-    musicName: 'Almost nothing - "Death Stranding" Ending Song',
+    musicName: 'Finding her - Bharat & Khushagara',
     messageInParas: [
-      "Today is your day, and I just want you to know how deeply grateful I am that you were born — not just into this world, but into my world. You light up every space you walk into, and you’ve brought a kind of love into my life that I didn’t know was possible until you."
+      "I know nuv konni saarlu chaala worry avutuu untavvu regd. few things but Don't stress em out just konchem ala chinna smile icchi 😁 positve ga aalochinchu. konchem Navvey parledu..😂, You're a true Gem endukante contemporary world lo you've stood still on your PRINCIPLES and nee hardwork ki Hats-off 🫡 , Eventully I hope you find the success you've been working for. Sarle inatku minchi cheptey sollu la untadi kani, All I want to say is Eppuduu ila ne navvutuu.. navvistuu.. undalani naa vinnapam 😇. Kudirithey call cheyandi 📞, Nacchite Whatsapp lo comment drop cheyandi 💬, mee fan abhimanam ni gurtinchandi 😁"
     ],
     musicFilePath: secondMusic,
   },

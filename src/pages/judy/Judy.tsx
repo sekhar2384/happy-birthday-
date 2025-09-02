@@ -21,10 +21,10 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute top-0 left-32 mt-12 text-center hidden md:flex flex-col justify-around h-32 "
       >
-        <p className=" text-xl">SALLY RAJ </p>
+        <p className=" text-xl">CHATURA </p>
         <div className="flex flex-col text-left">
           <Link to={"/wishes"} className="hover:underline">
-            My Wishes
+            Ikkada click cheyu 😍
           </Link>
          
         </div>
@@ -38,7 +38,7 @@ const Judy = () => {
       >
         <Marquee
           transition={{ ...transition }}
-          message="SALLY ."
+          message="Chatura "
           small={true}
         />
       </motion.div>
@@ -61,7 +61,7 @@ const Judy = () => {
         exit={{ opacity: 0 }}
         className="absolute bottom-0 mb-12 text-center md:hidden w-full underline flex flex-col"
       >
-        <Link to={"/wishes"}>My Wishes</Link>
+        <Link to={"/wishes"}>Ikkada click cheyu 😍</Link>
         
       </motion.div>
       {/* Mobile */}
@@ -100,7 +100,7 @@ const Judy = () => {
       </motion.div>
       <Marquee
         transition={{ ...transition }}
-        message="Happy Birthday Sally..!"
+        message="Happy Birthday Chatterbox..!"
         small={false}
       />
     </motion.main>
